@@ -22,6 +22,11 @@ body {
     font-family: 'Oleo Script Swash Caps', 'Ceviche One', cursive, sans-serif;
     font-size: 1.5em;
 }
+.wrap-header h1 a {
+	color:#146558;/*#444;*/
+	font-family: 'Oleo Script Swash Caps', 'Ceviche One',cursive;
+	font-size:1.5em;
+}
 #title:hover {
     border: 0;
 }
@@ -30,7 +35,9 @@ body {
     width: 140px;
     float: left;
     text-align: right;
-    font-family: Verdana, Geneva, sans-serif;
+    /*font-family: Verdana, Geneva, sans-serif;*/
+    font-family: 'Raleway', Courier, "Courier New", sans-serif;
+    font-weight: bold;
 }
 .header li {
 	list-style: none;
@@ -39,13 +46,20 @@ body {
 }
 .header a {
     color: black;
+    margin: 15px 0;
+	padding: 15px;
+}
+.header #page li a:hover {
+	background-color: #eee;
+	color: #34B489;
+	border-bottom: none;
 }
 a {
-	text-decoration: none;
-	color: #E93071;
+	text-decoration:none;
+	color:#34B489;/*color:#E93071*/
 }
 a:hover {
-	border-bottom: 1px solid #E93071;
+	border-bottom: 1px solid #34B489;/*border-bottom:1px solid #E93071*/
 }
 .selected {
 	color: black;
