@@ -95,11 +95,15 @@ a:hover {
 }
 .title a:hover {
 	padding-bottom: 2px;
-	border-bottom: 1px solid #E93071;
+	/*border-bottom: 1px solid #E93071;*/
+	border-bottom:1px solid #34B489;
 }
 .title h2 {
 	font-size: 17px;
 	line-height: 25px;
+	font-family: 'Raleway', 'Oleo Script Swash Caps', 'Open Sans', 'Courier New', sans-serif;
+	font-weight: 100;
+	text-transform: uppercase;
 }
 .footer {
 	border-top: 1px dotted #888;
