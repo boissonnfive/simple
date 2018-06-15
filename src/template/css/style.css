@@ -1,6 +1,7 @@
 body {
 	margin: 0;
-    font-family: Georgia, serif;
+    /*font-family: Georgia, serif;*/
+    font-family: 'Raleway',Courier,"Courier New",sans-serif;
 }
 .main {
 	margin: 0 auto;
