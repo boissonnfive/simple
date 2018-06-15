@@ -69,22 +69,26 @@ a:hover {
 	padding: 1px 0;
 }
 .little {
-	float: left;
-	margin-right: 10px;
-	width: 3px;
-	height: 30px;
-	border-radius: 4px;
-	background: #C5C5BD;
+	float:left;
+	margin-right:10px;
+	width:3px;
+	height:30px;
+	border-radius:4px;
+	/*background:#C5C5BD*/
+	background:#666;
 }
 .date {
-	float: left;
-	color: #C5C5BD;
-	font-size: 17px;
-	text-transform: uppercase;
-	font-weight: bold;
-	width: 140px;
-	padding: 16px 0 0;
+	font-family:'Raleway', Courier,"Courier New",sans-serif;
+	color:#666;
+	float:left;
+	/*color:#C5C5BD;*/
+	font-size:17px;
+	text-transform:uppercase;
+	/*font-weight:700;*/
+	width:140px;
+	padding:16px 0 0
 }
+
 .title {
 	padding: 0;
 	margin: 0 0 0 140px;
